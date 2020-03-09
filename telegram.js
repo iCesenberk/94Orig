@@ -20,9 +20,9 @@ bot.onText(/https:\/\//, async (msg, match) => {
     if (isStory === true) {
       bot.sendMessage(chatId, 'Tunggu 10 Detik');
     }
-    if (target.length === 1) {
-      bot.sendMessage(chatId, `Bagikan Tautan：https://twitig.herokuapp.com/?url=${target[0]}`);
-    }
+#    if (target.length === 1) {
+#      bot.sendMessage(chatId, `Bagikan Tautan：https://twitig.herokuapp.com/?url=${target[0]}`);
+#    }
     let resp = await callApi(target, 'api/');
     if (resp == '') {
       resp[0] = 'Ga Ada !!';
