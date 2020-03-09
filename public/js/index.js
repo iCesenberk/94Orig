@@ -102,7 +102,7 @@ function callApi(datas) {
     <div class="card text-center">
         <img src="${element}" class="card-img-top">
         <div class="card-body">
-            <a href="${element}" class="btn btn-outline-secondary resultBtn" target="_blank">點我開啟</a>
+            <a href="${element}" class="btn btn-outline-secondary resultBtn" target="_blank">Buka</a>
         </div>
     </div>
 </div>
